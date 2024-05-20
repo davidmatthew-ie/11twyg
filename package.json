@@ -1,0 +1,15 @@
+{
+  "name": "11twig",
+  "version": "1.0.0",
+  "description": "11twig is a minimal Eleventy install setup to work with Twig and YAML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Matthew",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}

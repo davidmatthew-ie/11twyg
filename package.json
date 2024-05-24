@@ -1,7 +1,7 @@
 {
-  "name": "11twig",
+  "name": "11twyg",
   "version": "1.0.0",
-  "description": "11twig is a minimal Eleventy install setup to work with Twig and YAML.",
+  "description": "11twyg is a minimal Eleventy install setup to work with Twig and YAML.",
   "main": "index.js",
   "scripts": {
     "clean": "rm -r _site",

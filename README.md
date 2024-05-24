@@ -1,2 +1,2 @@
-# 11twig
-11twig is a minimal Eleventy install setup to work with Twig and YAML.
+# 11twyg
+11twyg is a minimal Eleventy install setup to work with Twig and YAML.

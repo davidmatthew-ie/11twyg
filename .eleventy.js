@@ -1,4 +1,5 @@
 const twig = require('twig');
+const yaml = require('js-yaml');
 
 module.exports = function(eleventyConfig) {
 
@@ -14,6 +15,17 @@ module.exports = function(eleventyConfig) {
         return template.render(data);
       };
     },
+  });
+
+  twig.cache(false);
+
+  twig.extendFunction('getYear', () => {
+    let date = new Date();
+    return date.getFullYear();
+  });
+
+  eleventyConfig.addDataExtension('yml', (contents) => {
+    return yaml.load(contents);
   });
 
   return {
